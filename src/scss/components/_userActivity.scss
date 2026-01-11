@@ -1,0 +1,68 @@
+.user-activity-container {
+  margin-left: 1.7rem;
+  margin-right: 12.7rem;
+  height: 35vh;
+}
+
+.contribution-container {
+  border-top: 1px solid #d1d9e0;
+  border-left: 1px solid #d1d9e0;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.show-more-activity-btn {
+  width: 100%;
+  color: #1f6feb;
+  background-color: white;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  padding: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.link {
+  text-decoration: underline;
+  color: #1f6feb;
+  cursor: pointer;
+}
+
+.top-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repo {
+  font-size: 0.9rem;
+  color: #59636e;
+  margin-bottom: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repo-desc {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.purple-pill {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(196, 122, 196);
+}
+
+.green-pill {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 7px;
+  color: white;
+  background-color: green;
+}
+
+.unfold-icon {
+  width: 1.1rem;
+}

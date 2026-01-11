@@ -1,0 +1,79 @@
+.stats-visuals-container {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.stats-visuals-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  align-items: center;
+}
+
+.contribution-settings-dropdown {
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.stats-visuals {
+  height: 80vh;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  display: grid;
+  grid-template-rows: 30% 70%;
+  overflow: hidden;
+  padding-right: 2rem;
+}
+
+.more-stats {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 1rem;
+  padding-top: 5rem;
+}
+
+.contri-desc {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  border-right: 1px solid #d1d9e0;
+}
+
+.details-btn {
+  padding: 0.3rem;
+  margin: 0.2rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.repo-icon{ 
+  padding-top: 0.2rem;
+}
+
+.activity-overview-heading {
+  margin-bottom: 0.5rem;
+}
+
+.details-txt {
+  color: #1f6feb;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+
+.axis-chart {
+  padding-left: 3rem;
+}
+
+.axis-chart-diagram {
+  width: 335px;
+  height: 335px;
+}

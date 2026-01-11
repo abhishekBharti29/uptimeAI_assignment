@@ -1,0 +1,112 @@
+.michael-jackson {
+  display: grid;
+  background-color: #f5f4f4;
+  grid-template-columns: 50% 50%;
+}
+
+.michael-jackson-left-pane {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1em;
+}
+
+.header-functionalities {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1em;
+}
+
+
+.header-main-menu {
+  width: 4.5%;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  padding: 0.3em;
+}
+
+.header-github-logo {
+  width: 4.5%;
+  height: auto;
+  cursor: pointer;
+}
+
+.header-search-logo {
+  width: 4%;
+  height: auto;
+  margin-right: 0.7em;
+}
+
+.header-slash-logo {
+  width: 5%;
+  padding: 0.07em;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.header-search-btn {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  cursor: pointer;
+  width: 40%;
+  height: 90%;
+  background-color: #f5f4f4;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  text-align: left;
+  padding: 0.3em;
+  padding-left: 0.6em;
+}
+
+.header-dropdown-container {
+  display: flex;
+  border: 1px solid #d1d9e0;
+  width: 9%;
+  height: 90%;
+  border-radius: 7px;
+  overflow:hidden;
+}
+
+.header-dropdown-btn {
+  width: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header-octocat-face-icon {
+  width: 50%;
+  border-right: 1px solid #d1d9e0;
+  padding: 0.4em;
+  cursor: pointer;
+}
+
+.header-target-icon {
+  width: 4.5%;
+  height: 90%;
+  border: 1px solid #d1d9e0;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.header-add-btn {
+  border: none;
+  width: 50%;
+  border-right: 1px solid #d1d9e0;
+  padding: 0.4em;
+  cursor: pointer;
+}
+
+.header-profile-pic-img {
+  width: 5%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 100%;
+}

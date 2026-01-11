@@ -1,0 +1,27 @@
+.years-of-contribution {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.year-btn {
+  margin-bottom: 0.3rem;
+  padding: 0.5rem 4rem 0.5rem 0.5rem;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.year-btn:hover {
+  background-color: rgb(241, 240, 240);
+}
+
+.active {
+  color: white;
+  background-color: #1f6feb;
+}
+
+.active:hover {
+  background-color: #1f6feb;
+}

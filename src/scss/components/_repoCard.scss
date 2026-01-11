@@ -1,0 +1,36 @@
+.repo-card {
+  margin: 0.6rem;
+  padding: 1rem;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 20vh;
+}
+
+.repo-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-name {
+  color: #4493f8;
+  cursor: pointer;
+}
+
+.repo-visibility-pill {
+  font-size: 0.9rem;
+  padding: 0.1rem 0.3rem 0.3rem;
+  border: 1px solid #d1d9e0;
+  border-radius: 15px;
+}
+
+.repo-description {
+  font-size: 0.8rem;
+}
+
+.repo-primary-coding-lang {
+  font-size: 0.8rem;
+}

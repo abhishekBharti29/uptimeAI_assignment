@@ -1,0 +1,111 @@
+strong:hover {
+  color: #4493f8;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  margin-top: 0.05rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+
+.user_image {
+  width: 90%;
+  height: auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.username {
+  color: #59636e;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.edit-profile-btn {
+  padding: 0.5em;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.follow-icon {
+  width: 5%;
+  height: auto;
+}
+
+.user-contact-icons {
+  width: 5%;
+  height: 90%;
+}
+
+.followers-following {
+  display: flex;
+  gap: 1%;
+}
+
+.followers-following-txt:hover {
+  cursor: pointer;
+  color: #4493f8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about-user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about-user li {
+  display: flex;
+  align-items: center;
+}
+
+.contact-user-info {
+  margin-left: 0.5rem;
+}
+
+.url:hover {
+  color: #4493f8;
+  text-decoration: underline;
+}
+
+.achievements-section {
+  line-height: 200%;
+}
+
+.achievement-tags {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1%;
+  cursor: pointer;
+}
+
+.achievements-img {
+  width: 15%;
+  height: auto;
+}
+
+.org {
+  background-color: white;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 25%;
+}
+
+.org:hover {
+  background-color: white;
+  border: 1px solid #d1d9e0;
+  border-radius: 7px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 25%;
+  text-decoration: none;
+}
